@@ -46,7 +46,7 @@ sudo systemctl enable  nginx
 ```
 - after this copyrhis  files to nginx path
 ```
-sudo cp -r * /usr/share/nginnx/html
+sudo cp -r * /usr/share/nginx/html
 ```
 
 - hit frontend public ip
