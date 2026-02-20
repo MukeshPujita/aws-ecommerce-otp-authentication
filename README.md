@@ -69,7 +69,7 @@ sudo systemctl enable  nginx
 - change the backend public in frontend index.html login and signup
 ```
 - // === Configuration ===
--       const API_BASE = "http://54.161.16.143:5000/api"; 
+    const API_BASE = = "/api";  // For reverse proxy it is mandatory so dont change
 ```
 - after this copyrhis  files to nginx path
 ```
