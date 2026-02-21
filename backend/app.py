@@ -23,8 +23,8 @@ app.config.update(
     MAIL_SERVER='smtp.gmail.com',
     MAIL_PORT=587,
     MAIL_USE_TLS=True,
-    MAIL_USERNAME='vvardhan2211@gmail.com', 
-    MAIL_PASSWORD='czvk tjjz kiea qrbu' 
+    MAIL_USERNAME='usa.mukesh89@gmail.com', 
+    MAIL_PASSWORD='Education*1' 
 )
 mail = Mail(app)
 
@@ -137,4 +137,5 @@ def login_verify():
     return jsonify({"error": "Invalid or expired OTP"}), 401
 
 if __name__ == "__main__":
+
     app.run(host="0.0.0.0", port=5000, debug=True)
